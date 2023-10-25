@@ -15,21 +15,21 @@
 
 ### Intrucciones Examen 🧐:
 
-- [*] Coloca tu nombre aqui: *`"Brandon Josue Oropeza Quiñonez"`*
-- [*] Abre el shell/terminal *`"Git Bash"`*
-- [*] Limpia el historial de tu consola: *`"history -c"`*
-- [*] Navega al directorio home del usuario. *`"~"`* 
-- [*] Crear una carpeta con el nombre. *`"examen372"`* y colocate dentro de ella.
-- [*] Crear un script con el nombre. *`"create.sh"`*
-- [*] Colocar el shebang dentro del script desde la terminal: *`"#! /bin/bash"`*
-- [*] Inicializa un repositorio vacio de git.
-- [*] Crea un commit inicial con el mensaje *`"Initial commit, script added"`* (el commit debe contener la version inicial del script).
+- [x] Coloca tu nombre aqui: *`"Brandon Josue Oropeza Quiñonez"`*
+- [x] Abre el shell/terminal *`"Git Bash"`*
+- [x] Limpia el historial de tu consola: *`"history -c"`*
+- [x] Navega al directorio home del usuario. *`"~"`* 
+- [x] Crear una carpeta con el nombre. *`"examen372"`* y colocate dentro de ella.
+- [x] Crear un script con el nombre. *`"create.sh"`*
+- [x] Colocar el shebang dentro del script desde la terminal: *`"#! /bin/bash"`*
+- [x] Inicializa un repositorio vacio de git.
+- [x] Crea un commit inicial con el mensaje *`"Initial commit, script added"`* (el commit debe contener la version inicial del script).
 ---
 
 ### Instrucciones dentro del script `create.sh` 🔡:
 
-1. [*] Elimina la carpeta **webapp**. *`"rm -rf"`*
-2. [*] Crea la siguiente estructura de carpetas *`"mkdir"`*:
+1. [x] Elimina la carpeta **webapp**. *`"rm -rf"`*
+2. [x] Crea la siguiente estructura de carpetas *`"mkdir"`*:
   
     ```
     .
@@ -42,7 +42,7 @@
         └── img
     ```
     
-3. [*] Crea los archivos de la aplicación con el siguiente código (incluyelo en el script):
+3. [x] Crea los archivos de la aplicación con el siguiente código (incluyelo en el script):
     
     ```sh
     for file in index.html style.css app.js main.py
@@ -51,7 +51,7 @@
     done
     ```
 
-4. [*] Una vez creados los archivos la carpeta se vera asi utiliza el siguiente comando si quieres ver en consola tu estructura `cmd //c tree //F ./`:
+4. [x] Una vez creados los archivos la carpeta se vera asi utiliza el siguiente comando si quieres ver en consola tu estructura `cmd //c tree //F ./`:
 
     ```
     .
@@ -69,12 +69,12 @@
 
     ```
 
-5. [*] Descargar la imagen de internet con el siguiente comando:
+5. [x] Descargar la imagen de internet con el siguiente comando:
     
     ```sh
     curl -o meme.jpg "https://pm1.aminoapps.com/7021/417429318f6b29b6bc737fb95ba1ddafc9ba2decr1-720-642v2_hq.jpg"
     ```
-6. [*] Guarda en una variable la cantidad de archivos de texto que creara el script y pon el siguiente código esto creara la cantidad de archivos .txt ingresada por consola:
+6. [x] Guarda en una variable la cantidad de archivos de texto que creara el script y pon el siguiente código esto creara la cantidad de archivos .txt ingresada por consola:
     
     ```sh
     read -p "Introduce la cantidad de archivos a crear:" numfiles
@@ -84,7 +84,7 @@
     done
     ```
 
-7. [*] Verificar estructura con `"cmd //c tree //F ./"` debe verse de la siguiente manera
+7. [x] Verificar estructura con `"cmd //c tree //F ./"` debe verse de la siguiente manera
 
     ```
     .
@@ -111,17 +111,17 @@
 
     ```
    
-8. [*] En este punto crea un segundo commit con el mensaje *`"Second commit, structure created"`* que contiene la actualización del script (este comando no debe ser parte del script).
+8. [x] En este punto crea un segundo commit con el mensaje *`"Second commit, structure created"`* que contiene la actualización del script (este comando no debe ser parte del script).
    
-9. [*] En el script debe organizar la informacion moviendo los archivos a su respectiva carpeta usando el comando *`"mv"`*:
+9. [x] En el script debe organizar la informacion moviendo los archivos a su respectiva carpeta usando el comando *`"mv"`*:
    
-      - [*] Mueve el archivo *`style.css`* a la carpeta **`css`**
-      - [*] Los archivos *`fileN.txt`* a la carpeta **`docs/text`**
-      - [*] El archivo *`main.py`* a la carpeta **`docs/python`**
-      - [*] El *`app.js`* a la carpeta **`js`** 
-      - [*] Dejar *`index.html`* en la ruta actual, dentro de **`webapp`**. 
+      - [x] Mueve el archivo *`style.css`* a la carpeta **`css`**
+      - [x] Los archivos *`fileN.txt`* a la carpeta **`docs/text`**
+      - [x] El archivo *`main.py`* a la carpeta **`docs/python`**
+      - [x] El *`app.js`* a la carpeta **`js`** 
+      - [x] Dejar *`index.html`* en la ruta actual, dentro de **`webapp`**. 
    
-10. [*] Al ejecutar `"cmd //c tree //F ./"` debe verse asi y concluye la programación del script:
+10. [x] Al ejecutar `"cmd //c tree //F ./"` debe verse asi y concluye la programación del script:
    
     ```
     .
@@ -148,11 +148,11 @@
         
     ```
 ---
-- [*] Una vez completado el script ejecutarlo para validar que haga lo antes pedido: `./create.sh`
-- [*] Mover este archivo `examen372.md` a la carpeta **`examen372`**
-- [*] Renombrar el archivo `examen372.md` a README.md con la terminal *`"mv"`*
-- [ ] Registrar un tercer commit con el mensaje *`"Third commit, add README.md and final script updated"`*
-- [ ] Guardar el historial de sus comandos: *`history > history.txt`*
+- [x] Una vez completado el script ejecutarlo para validar que haga lo antes pedido: `./create.sh`
+- [x] Mover este archivo `examen372.md` a la carpeta **`examen372`**
+- [x] Renombrar el archivo `examen372.md` a README.md con la terminal *`"mv"`*
+- [x] Registrar un tercer commit con el mensaje *`"Third commit, add README.md and final script updated"`*
+- [x] Guardar el historial de sus comandos: *`history > history.txt`*
 - [ ] Registrar el último commit agregando el archivo del historial con el mensaje *`"Fourth commit, command history added"`*
 - [ ] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre *`examen372`*
 - [ ] Subir su carpeta al repositorio remoto con su famosisimo: *`git push`* 🔥👀

@@ -1,0 +1,467 @@
+    1  asd
+    2  re
+    3  help
+    4  whoiam
+    5  whoami
+    6  clr
+    7  cls
+    8  clear
+    9  c
+   10  asdsad
+   11  c
+   12  pwd
+   13  pwd
+   14  pwd
+   15  pwd
+   16  pwd
+   17  pwd
+   18  ls
+   19  ls
+   20  ls -l
+   21  ls -l -v
+   22  ls -l
+   23  cd desktop
+   24  cd..
+   25  ..cd
+   26  cd ..
+   27  cd desktop
+   28  cd .
+   29  cd ...
+   30  cd ..
+   31  cd desktop
+   32  ls -al
+   33  explorer .
+   34  cd ..
+   35  explorer .
+   36  start .
+   37  start ..
+   38  history
+   39  asjknfjhvbsdvjhsd
+   40  history
+   41  cd ~
+   42  cd ~
+   43  cd ~`
+   44  cd /
+   45  pw
+   46  cl
+   47  clear
+   48  pwd
+   49  cd /
+   50  pwd
+   51  cd c
+   52  history
+   53  cd ~
+   54  cd Desktop
+   55  mkdir foldercito
+   56  cd ..
+   57  cd Desktop
+   58  cd ..
+   59  cd Desktop
+   60  mkdir foldercito
+   61  cd foldercito
+   62  start .
+   63  touch main.py
+   64  start .
+   65  echo "Hola"
+   66  echo "print('Hola mundo')" > main.py
+   67  cat main.py
+   68  code main.py
+   69  touch uno.py
+   70  touch dos.py
+   71  touch tres.py
+   72  touch principal.py
+   73  curl https://jsonplaceholder.typicode.com/user
+   74  curl https://jsonplaceholder.typicode.com/users
+   75  curl https://jsonplaceholder.typicode.com/users | jq '.[] | select(.phone)'
+   76  curl https://jsonplaceholder.typicode.com/users | jq '.[] | select(.phone)'
+   77  curl https://jsonplaceholder.typicode.com/users | jq '.[] | select(.zipcode)'
+   78  curl -s https://jsonplaceholder.typicode.com/users | grep -o '"phone": "[^"]*"' | cut -d'"' -f4
+   79  pwd
+   80  curl https://jsonplaceholder.typicode.com/users -o todos.json
+   81  pwd
+   82  cd
+   83  pwd
+   84  cd Desktop
+   85  cd foldercito
+   86  ls
+   87  history
+   88  cat todos.json 
+   89  pwd
+   90  history
+   91  history
+   92  curl https://jsonplaceholder.typicode.com/users | grep "phone"
+   93  curl -s https://jsonplaceholder.typicode.com/users | grep "phone"
+   94  touch ejemplo.txt
+   95  git commit -m "Agregar información a archivo.txt
+   96  git commit -m ejemplo.txt
+   97  curl -s https://jsonplaceholder.typicode.com/users | grep "website" > websites.txt
+   98  ls
+   99  cat websites.txt 
+  100  curl -s https://jsonplaceholder.typicode.com/users | awk -F'"' '/"website"/{website=$4} /"phone"/{phone=$4} {if(website && phone) print "Website: " website ", Phone: " phone}' > datos.txt
+  101  ls
+  102  cat datos.txt 
+  103  cat phone.txt website.txt
+  104  ls
+  105  curl -s https://jsonplaceholder.typicode.com/users | grep "phone" > phones.txt
+  106  cat phone.txt
+  107  cat phones.txt
+  108  cat phones.txt, website.txt
+  109  cat phones.txt > website.txt
+  110  cat phones.txt > website.txt
+  111  cat phones.txt website.txt > juntos.txt
+  112  cat juntos.txt 
+  113  ls
+  114  cd /
+  115  history
+  116  ls desktop
+  117  touch ~/Desktop/hola.txt
+  118  touch ~/Desktop/hola.txt
+  119  cd Desktop
+  120  cd ~/Desktop
+  121  mkdir myfiles
+  122  touch hola.txt
+  123  mv
+  124  --
+  125  --help
+  126  mv --help
+  127  read name
+  128  ls
+  129  echo $name
+  130  read age
+  131  echo $name tiene $age
+  132  ls
+  133  mkdri bashcripting
+  134  mkdrir bashcripting
+  135  mkdir bashcripting
+  136  cd desktop.ini 
+  137  cd bashcripting/
+  138  touch myfirstscript.sh
+  139  ls
+  140  echo $PATH
+  141  echo $SHELL
+  142  read name
+  143  rm name
+  144  cat $name
+  145  mkdir ~/Desktop/$name
+  146  echo "Hola $name" > hola.txt
+  147  cd ~/Desktop
+  148  echo "Hola $name" > hola.txy
+  149  echo "Hola $name" > hola.txr
+  150  echo "Hola $name" > hola.txt
+  151  touch
+  152  touch asdjkbwefjbew.txt
+  153  pwd
+  154  cd desktop
+  155  mkdir controlstructures
+  156  cd controlstructures/
+  157  code.
+  158  code .
+  159  code .
+  160  code .
+  161  ./conditionals.sh
+  162  cd Desktop
+  163  mkdir carpeta1 carpeta2 carpeta3
+  164  start explorer.exe
+  165  rm carpeta1/ carpeta2/ carpeta3/
+  166  rm -r carpeta1/ carpeta2/ carpeta3/
+  167  rm carpeta1/ carpeta1/carpeta2 carpeta1/carpeta3
+  168  mkdir carpeta1/ carpeta1/carpeta2 carpeta1/carpeta3
+  169  start explorer.exe
+  170  mkdir -p carpeta01/carpeta02/carpeta03/carpeta04
+  171  rm carpeta1
+  172  rm -r carpeta1
+  173  ls
+  174  pwd
+  175  cd taller
+  176  ls
+  177  mkdir taller
+  178  cd /taller
+  179  cd taller/
+  180  start /
+  181  start /
+  182  tree
+  183  tree ./
+  184  mkdir -p carpeta01/carpeta02/carpeta03/carpeta04
+  185  tree ./
+  186  cmd //c tree
+  187  cmd //c tree ./
+  188  cmd /c tree ./
+  189  code ./
+  190  history | tail -n 7
+  191  history | tail -n 7
+  192  cd
+  193  cd
+  194  cd .. ; mkdir  terminal ; cd terminal
+  195  cd .. ; mkdir  terminal ; cd terminal
+  196  cd .. ; mkdir  terminal ; cd terminal
+  197  touch loops.sh
+  198  chmod +x loops.sh
+  199  ls
+  200  nano loops.sh
+  201  cat loops.sh
+  202  nano loops.sh 
+  203  cat loops.sh
+  204  ./loops.sh 
+  205  cat loops.sh
+  206  nano loops.sh 
+  207  ./loops.sh 
+  208  history 
+  209  code .
+  210  ls
+  211  cd C:\PracticasDSW
+  212  git init
+  213  git status
+  214  git add .
+  215  git commit -m "comentario"
+  216  git branch -M main
+  217  git config --global user.email brandon.oropeza@uabc.edu.mx
+  218  git config --global user.name oropeza214
+  219  git remote add origin https://github.com/oropeza214/PracticasDSW
+  220  git push -u origin main
+  221  git remote add origin https://github.com/oropeza214/PracticasDSW.git
+  222  git push -u origin main
+  223  git branch -M main
+  224  git remote add origin https://github.com/oropeza214/PracticasDSW
+  225  git push -u origin main
+  226  ls
+  227  cd .
+  228  cd c
+  229  cd disk:c
+  230  cd 
+  231  cd C:\PracticasDSW
+  232  git init
+  233  git add README.md
+  234  git add .
+  235  git commit -m "first commit"
+  236  git branch -M main
+  237  git remote add origin https://github.com/oropeza214/PracticasDSW.git
+  238  git push -u origin main
+  239  git status
+  240  git status
+  241  git add .
+  242  git commit -m "Agregue un hola mundo"
+  243  git status
+  244  git push
+  245  git clone https://github.com/oropeza214/PracticasDSW 
+  246  git pull
+  247  git status
+  248  git add .
+  249  git commit -m "Informacion e historia acerca de World Wide Web"
+  250  git push
+  251  git pull
+  252  git status
+  253  git add .
+  254  git commit -m "Pagina web sobre informacion de que es un Articulo, usando diferentes etiquetas de HTML"
+  255  git push
+  256  git pull
+  257  git status
+  258  git add .
+  259  git commit -m "Pagina de Curriculum Vitae de Bruce Wayne con etiquetas de listas desordenadas"
+  260  git push
+  261  git pull
+  262  git status
+  263  git add .
+  264  git commit -m "Informacion acerca de los tres pilares de la Web con estructuras de listas desordenadas"
+  265  git push
+  266  git pull
+  267  git status
+  268  git add .
+  269  git commit -m "Pagina web de informacion y descripcion de diferentes animales en la lista ordenadas, combinado con otro tipo etiquetas HTML"
+  270  git push
+  271  git pull
+  272  git status
+  273  git add .
+  274  git commit -m "Pagina web con Tabla de puntuación usando bordes y agregando color a unas casillas"
+  275  git push
+  276  git pull
+  277  git status
+  278  git add .
+  279  git commit -m "Pagina web de una tabla sobe diferentes etiquetas de HTML, utilizando la funcion de rowspan en unas celdas dentro de la tabla"
+  280  git push
+  281  git pull
+  282  git status
+  283  git add .
+  284  git commit -m "Pagina web sobre nuestro horario escolar del semestre utilizando una tabla con propiedades de Colspawn y Rowspaw"
+  285  git push
+  286  git pull
+  287  git status
+  288  git add .
+  289  git commit -m "Pagina web sobre mi primer formulario, utilizando etiquetas basicas como input tipo text, tipo number, etc."
+  290  git push
+  291  git push
+  292  git pull
+  293  git status
+  294  git add .
+  295  git commit -m "Pagina web sobre otro formulario agregando mas tipos de etiquetas input de diferentes tipos, y utilizando checkbox."
+  296  git push
+  297  git pull
+  298  git status
+  299  git add .
+  300  git commit -m "Pagina web informacion de dispositivos, en formato de una tabla y con listas ordenadas, agregando fotos de los productos"
+  301  git push
+  302  git pull
+  303  git status
+  304  git add .
+  305  git commit -m "Pagina web sobre informacion de costos de vuelos de avion y hospedaje en hoteles de diferentes tipos, usando tablas con Colspaw y Rowspan"
+  306  git pull
+  307  git status
+  308  git add .
+  309  git commit -m "Pagina web sobre informacion de costos de vuelos de avion y hospedaje en hoteles de diferentes tipos, usando tablas con Colspaw y Rowspa"
+  310  git push
+  311  git pull
+  312  git status
+  313  git add .
+  314  git commit -m "Pagina web sober un formulario de registro con la mayoria de tipos de input en HTML, con boton de submit"
+  315  git push
+  316  git pull
+  317  git status
+  318  git add .
+  319  git commit -m "Pagina web sobre el estilo de diferentes DIV en HTML, Divs como Header, Nav, Aside, Footer, etc."
+  320  git push
+  321  git pull
+  322  git status
+  323  git add .
+  324  git commit -m "Pagina web Estilo de contenedores sin utilizar etiquetas con divs, solo utliza etiquetas de HTML (Header, Nav, Aside, Footer, Etc.)"
+  325  git push
+  326  git pull
+  327  git status
+  328  git add .
+  329  git commit -m "Pagina web estilo de contenedores utilizando divs dentro de otros divs, agregando colores en el archivo CSS de Style"
+  330  git push
+  331  git pull
+  332  git status
+  333  git add .
+  334  git commit -m "Pagina web de unidades de medidas en HTML, relativas y relativas de viewport"
+  335  git push
+  336  git pull
+  337  git status
+  338  git add .
+  339  git commit -m "Pagina web de pseudocodigos y diferentes etiquetas de HTML, agregando nth y listas"
+  340  git push
+  341  git pull
+  342  git status
+  343  git add .
+  344  git commit -m "Pagina web personalida con diferentes elementos que usamos en practicas anteriores, agregue imagenes, videos, etc."
+  345  git push
+  346  git pull
+  347  git status
+  348  git add .
+  349  git commit -m "Pagina web con etiquetas basica de HTML, con CSS agregando elementos de tipo clase y ID"
+  350  git push
+  351  git pull
+  352  git status
+  353  git add .
+  354  git commit -m "En esta practica, vi como usar JS con HTML e hicimos ejercicios de JS usando var y alerts"
+  355  git push
+  356  git pull
+  357  git status
+  358  git add .
+  359  git commit -m "En esta practica segui usando JS e hice 3 ejercicios relacionado con ello, el primero fue Determina cual de los 2 elementos de texto es mayor, el segundo fue hacer una condicion con los valores booleanos true y false, y el tercero fue determinar el resultado de las cinco operaciones matematicas realizadas con los 2 elementos numericos"
+  360  git push
+  361  GIT PULL
+  362  git pull
+  363  git add Practica26
+  364  git commit -m "En esta practica realicé una sentencias if las cuales van mostrando en la consola unas frases que se van imprimiendo si se cumple la condición"
+  365  git push
+  366  git add Practica27
+  367  git commit -m "En esta practica pedimos al usuario ingresar su peso corporal en el planeta tierra, y dara la opcion de elegir ver su peso corporal en el planeta jupiter o marte. Realicé este programa usando un case y otra forma con puros IF y IF ELSE"
+  368  git push
+  369  git init
+  370  git clone https://github.com/oropeza214/Python.git
+  371  echo "# 3722023-2" >> README.md
+  372  git init
+  373  git add README.md
+  374  git commit -m "first commit"
+  375  git branch -M main
+  376  git branch -M master
+  377  git remote add origin https://github.com/oropeza214/3722023-2.git
+  378  git config --list
+  379  git push -u origin main
+  380  git push -u origin main
+  381  git config --list
+  382  git push
+  383  git push -u origin main
+  384  git branch -M main
+  385  git push -u origin main
+  386  git status
+  387  git branch --all
+  388  touch main.py
+  389  echo "print('segundo commit')" >> main.py
+  390  git status
+  391  git add main.py
+  392  git commit -m "Second commit"
+  393  git log --oneline
+  394  git push
+  395  git log --oneline
+  396  history 
+  397  cd ~
+  398  mkdir examen372
+  399  ls
+  400  cd examen372/
+  401  touch create.sh
+  402  [200~nano create.sh
+  403  nano create.sh
+  404  git branch -m master main
+  405  git push -m origin main
+  406  git remote set-head origin main
+  407  git add create.sh
+  408  git push
+  409  git init
+  410  git clone https://gist.github.com/c514e789859c9107c63ab99efe27735d.git
+  411  pwd
+  412  code .
+  413  cd ~
+  414  mkdir examen372
+  415  cd examen372/
+  416  touch create.sh
+  417  nano create.sh
+  418  git init
+  419  git add README.md
+  420  git add README.md
+  421  git add README.md
+  422  git commit -m "Initial commit, script added"
+  423  git branch -M main
+  424  git remote add origin https://github.com/oropeza214/examen372.git
+  425  git push -u origin main
+  426  git push
+  427  git statys
+  428  git status
+  429  git add create.sh
+  430  git push -u origin main
+  431  git push
+  432  git push --set-upstream origin main
+  433  git push --set-upstream origin main
+  434  git status
+  435  git init
+  436  git add create.sh
+  437  git push
+  438  git add .
+  439  git push -u origin main
+  440  git config --global user.email brandon.oropeza@uabc.edu.mx
+  441  git config --global user.name oropeza214
+  442  git init
+  443  git status
+  444  git add .
+  445  git commit -m "Initial commit, script added"
+  446  git branch -M main
+  447  git remote add origin https://github.com/oropeza214/examen372.git
+  448  git push -u origin main
+  449  git status
+  450  git push
+  451  ./create.sh
+  452  cmd //c tree //F ./
+  453  ./create.sh
+  454  cmd //c tree //F ./
+  455  cmd //c tree //F ./
+  456  ./create.sh
+  457  cmd //c tree //F ./
+  458  mv examen372.md README.md
+  459  it add .
+  460  git add .
+  461  git status
+  462  git add .
+  463  it commit -m "Third commit, add README.md and final script updated"
+  464  git add .
+  465  git commit -m "Third commit, add README.md and final script updated"
+  466  git push
+  467  history > history.txt
