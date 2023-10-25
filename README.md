@@ -153,9 +153,9 @@
 - [x] Renombrar el archivo `examen372.md` a README.md con la terminal *`"mv"`*
 - [x] Registrar un tercer commit con el mensaje *`"Third commit, add README.md and final script updated"`*
 - [x] Guardar el historial de sus comandos: *`history > history.txt`*
-- [ ] Registrar el último commit agregando el archivo del historial con el mensaje *`"Fourth commit, command history added"`*
-- [ ] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre *`examen372`*
-- [ ] Subir su carpeta al repositorio remoto con su famosisimo: *`git push`* 🔥👀
+- [x] Registrar el último commit agregando el archivo del historial con el mensaje *`"Fourth commit, command history added"`*
+- [x] Crear un repositorio remoto en sus cuentas de GITHUB con el nombre *`examen372`*
+- [x] Subir su carpeta al repositorio remoto con su famosisimo: *`git push`* 🔥👀
 
 ---
 
